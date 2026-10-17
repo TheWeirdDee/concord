@@ -88,6 +88,10 @@ spins down after fifteen idle minutes. `CONCORD_EPHEMERAL=1` makes the dashboard
 page. For anything people should come back to, use a paid instance with a disk at `/data` (or
 Fly.io, or a VPS) and remove that variable.
 
+Before upgrading, read [`docs/versioning.md`](./docs/versioning.md): what a version number
+promises, what counts as breaking for the input files, the audit pack and the database, and why a
+downgrade means restoring a backup.
+
 ## Layout
 
 | Path | What it is |
